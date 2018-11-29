@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Ball
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Ball\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Ball()
+comment1.text=\r\n\ Ball\ creates\ a\ new\ GreenfootImage\ called\ ballImage\ then\ sets\ its\ color\ to\ white\ and\ fills\ fills\ Oval\r\n\ then\ it\ sets\ the\ Ball\ class\ to\ ballImage\ and\ turns\ it\ a\ random\ 360\ degrees\r\n\ \r\n\ @param\ None\ there\ are\ no\ parameters\r\n\ @return\ there\ is\ no\ return\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ creates\ a\ PlayField\ variable\ called\ field\r\n\ if\ getStarted\ is\ true\ it\ moves\ the\ ball\ by\ the\ number\ the\ velocity\ variable\ is\ at\r\n\ and\ calls\ the\ checkCollision\ method\r\n\ \r\n\ @param\ None\ there\ are\ no\ parameters\r\n\ @return\ there\ is\ no\ return\r\n
+comment3.params=
+comment3.target=void\ checkCollision()
+comment3.text=\r\n\ checkCollision\ makes\ an\ Actor\ variable\ called\ hitting,\ a\ PlayField\ variable\ called\ world\ whic\ stores\ a\ reference\ to\ PlayField,\r\n\ and\ a\ Score\ variable\ called\ getPoint.\ If\ the\ hitting\ object\ is\ not\ nothing\ it\ sets\ velocity\ to\ negative\ velocity,\ sets\ rotation\ \r\n\ to\ negative\ rotation\ and\ moves\ the\ ball\ at\ the\ new\ velocity.\ If\ the\ ball\ reaches\ a\ Y\ location\ of\ 10\ it\ sets\ the\ rotation\ to\ negative\r\n\ rotation.\ If\ the\ ball\ reaches\ a\ Y\ location\ of\ 590\ it\ sets\ the\ rotation\ to\ negative\ rotation.\ If\ the\ X\ location\ of\ the\ ball\ reaches\ 10\ \r\n\ it\ removes\ the\ ball,\ sets\ getPoint\ to\ the\ Score.class,\ and\ increases\ the\ points\ then\ resets\ the\ world.\r\n\ \r\n\ @param\ None\ there\ are\ no\ parameters\r\n\ @return\ there\ is\ no\ return\r\n
+comment4.params=v
+comment4.target=void\ setVelocity(int)
+comment4.text=\r\n\ setVelocity\ sets\ velocity\ to\ the\ v\ parameter\r\n\ \r\n\ @param\ an\ integer\ varaible\ called\ v\r\n\ @return\ there\ is\ no\ return\r\n
+numComments=5

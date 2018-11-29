@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Score
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Score\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=onLeft
+comment1.target=Score(boolean)
+comment1.text=\r\n\ Score\ sets\ up\ the\ Score\ class\ bu\ setting\ playerScore\ to\ 0\ and\ setting\ isLeft\ to\ onLeft\r\n\ and\ calling\ the\ displayScore\ method\r\n\ \r\n\ @param\ a\ boolean\ variable\ called\ onLeft\r\n\ @retrun\ there\ is\ no\ return\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ act\ checks\ if\ the\ score\ has\ changed\ and\ if\ it\ has\ it\ calls\ the\ displayScore\ method\r\n\ \r\n\ @param\ None\ there\ are\ no\ parameters\r\n\ @return\ there\ is\ no\ return\r\n
+comment3.params=
+comment3.target=void\ displayScore()
+comment3.text=\r\n\ displayScore\ declares\ a\ greenfootImage\ variable\ called\ display\ and\ checks\ for\ if\ the\ score\ is\ on\ the\ left\r\n\ if\ it\ is\ it\ sets\ display\ to\ a\ new\ GreenfootImage\ object\r\n\ else\ it\ sets\ display\ to\ a\ different\ GreenfootImage\r\n\ then\ it\ sets\ the\ image\ to\ display\ and\ sets\ scoreChanged\ to\ false\r\n\ \r\n\ @param\ None\ there\ are\ no\ parameters\r\n\ @return\ there\ is\ no\ return\r\n
+comment4.params=
+comment4.target=void\ countScore()
+comment4.text=\r\n\ countScore\ adds\ one\ score\ to\ the\ playerScore\ variable\ and\ sets\ scoreChanged\ to\ true\r\n\ \r\n\ @param\ None\ there\ are\ no\ parameters\r\n\ @return\ there\ is\ no\ return\r\n
+comment5.params=
+comment5.target=int\ getScore()
+comment5.text=\r\n\ getScore\ returns\ a\ playerScore\ variable\r\n\ \r\n\ @param\ None\ there\ are\ no\ parameters\r\n\ @return\ an\ int\ that\ returns\ a\ playerScore\r\n
+numComments=6

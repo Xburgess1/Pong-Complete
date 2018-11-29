@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Paddle
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Paddle\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=isLeft
+comment1.target=Paddle(boolean)
+comment1.text=\r\n\ the\ Paddle\ constructor\ makes\ a\ new\ GreenfootImage\ called\ paddleImage.\ If\ the\ paddle\ is\ on\ the\ left\ of\ the\ screen\ \r\n\ it\ sets\ the\ upKey\ to\ w\ and\ the\ downKey\ to\ s,\ then\ it\ sets\ the\ paddleImage\ color\ to\ Blue.\ Else\ it\ sets\ the\ upKey\r\n\ to\ up\ and\ the\ downKey\ to\ down,\ then\ it\ sets\ the\ paddleImage\ color\ to\ red.\ It\ also\ fills\ the\ paddleImage\ rectangle\r\n\ and\ sets\ the\ image\ to\ paddleImage.\r\n\ \r\n\ @param\ a\ Boolean\ variable\ called\ isLeft\ which\ checks\ if\ the\ paddle\ is\ on\ the\ left\r\n\ @return\ there\ is\ no\ return\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ calls\ the\ checkKeyPress\ method\r\n\ \r\n\ @param\ None\ there\ are\ no\ parameters\r\n\ @return\ there\ is\ no\ return\r\n
+comment3.params=
+comment3.target=void\ checkKeyPress()
+comment3.text=\r\n\ checkKeyPress\ checks\ to\ see\ if\ the\ up\ or\ down\ keys\ for\ the\ respective\ paddles\ have\ been\ pressed.\ If\ so\ the\ paddle\r\n\ will\ move\ either\ up\ or\ down\ 4\ pixels\r\n\ \r\n\ @param\ None\ there\ are\ no\ parameters\r\n\ @return\ there\ is\ no\ return\r\n
+numComments=4
